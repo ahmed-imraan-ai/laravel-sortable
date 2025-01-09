@@ -2,7 +2,7 @@
   "name": "sudo520/laravel-sortable",
   "description": "Simple package to add sorting functionality to your Laravel models. (fork of ninoman/laravel-sortable)",
   "type": "library",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "keywords": [
     "laravel",
     "sorting",
@@ -10,17 +10,22 @@
     "database"
   ],
   "require": {
-    "php": ">=8.1",
-    "laravel/framework": ">=9.0 <=12.0"
+    "php": ">=8.0",
+    "laravel/framework": "^9.0|^10.0|^11.0"
   },
   "license": "MIT",
   "authors": [
+    {
+      "name": "Ahmed Imraan",
+      "email": "ahmed.imraan.ai@live.com"
+    },
     {
       "name": "Arman Ninoyan",
       "email": "arm.ninoyan@gmail.com"
     }
   ],
   "minimum-stability": "stable",
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Sudo520\\LaravelSortable\\": "src/"
