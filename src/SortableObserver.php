@@ -1,6 +1,6 @@
 <?php
 
-namespace Ninoman\LaravelSortable;
+namespace Sudo520\LaravelSortable;
 
 class SortableObserver
 {
